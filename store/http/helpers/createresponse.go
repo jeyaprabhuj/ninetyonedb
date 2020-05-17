@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"ninetyonedb/store/http/response"
+	"github.com/jeyaprabhuj/ninetyonedb/store/http/response"
 )
 
 func CreateErrorResponse(code int, msg string) []byte {
