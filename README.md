@@ -2,6 +2,7 @@
 
 JSON Storage server inspired by couchdb rest api access written in Golang.
 
+
 ## Installation
 
 Use the go get
@@ -29,16 +30,20 @@ http://<ip>:<port>/http://localhost:8001/storages/
 
 Initiate a HTTP Put with Request body JSON {"name":"<database/storage-name>"}
 
-
-
-You can access storage -> Shop using 
 list all storages - http://<ip>:<port>/http://localhost:8001/storages/
+  
 Individual access - http://<ip>:<port>/http://localhost:8001/storages/<storage-name>
 
 e.g. Consider database name is "Shop"
+
 Individual access - http://<ip>:<port>/http://localhost:8001/storages/Shop
 
 Client can be Postman ,any browser or client written in any language 
+
+## Disclaimer
+Preliminary or initial version for reference.
+
+Not for production use
 
 ## Roadmap
 Current status is reference implementation.
