@@ -1,4 +1,4 @@
-module ninetyonedb
+module github.com/jeyaprabhuj/ninetyonedb
 
 go 1.14
 
