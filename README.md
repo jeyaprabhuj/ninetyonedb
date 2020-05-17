@@ -40,11 +40,6 @@ Individual access - http://<ip>:<port>/http://localhost:8001/storages/Shop
 
 Client can be Postman ,any browser or client written in any language 
 
-## Disclaimer
-Preliminary or initial version for reference.
-
-Not for production use
-
 ## Roadmap
 Current status is reference implementation.
 Equivalent implementation in Elixir will be also added as another repo.
